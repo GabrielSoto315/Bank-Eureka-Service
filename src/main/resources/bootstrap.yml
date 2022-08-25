@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Bank-Eureka-Service
+
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:18888
+      username: root
+      password: s3cr3t
+
